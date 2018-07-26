@@ -13,7 +13,7 @@ dot_weight,place,lat,lon,address
 1,The Women's Centers Hartford GYN center,41.75561,-72.676643,"1 Main St N1, Hartford, CT"
 1,A Woman's Choice of Jacksonville,30.281719,-81.600923,"4131 University Blvd S, Jacksonville, FL"
 1,Planned Parenthood- Naples Health Center,26.182446,-81.792227,"1425 Creech Rd, Naples, FL"
-1,Planned Parenthood- Pembroke Pines Health Center,26.011501,-80.247272,"Ê263 N University Dr, Pembroke Pines, FL"
+1,Planned Parenthood- Pembroke Pines Health Center,26.011501,-80.247272,"ÃŠ263 N University Dr, Pembroke Pines, FL"
 1,Atlanta Women's Center,33.876056,-84.379357,"235 W Wieuca Rd NE, Atlanta, GA"
 1,Whole Women's Health of Peroia,40.777436,-89.622246,"7405 N University St, Peoria, IL"
 1,Planned Parenthood- Fairview Heights Health Center,38.570429,-89.98578,"Lakeland Square, 4529 N Illinois St, Belleville, IL"
@@ -28,15 +28,11 @@ dot_weight,place,lat,lon,address
 1,Northland Family Planning Center- Sterling Heights Abortion Clinic,42.578816,-83.071749,"3810 17 Mile Rd #1, Sterling Heights, MI"
 1,Northland Family Planning Center- Southfield Abortion Clinic,42.468178,-83.239476,"24450 Evergreen Rd #220, Southfield, MI"
 1,Whole Women's Health of the Twin Cities,44.970544,-93.261312,"825 S 8th St #1018, Minneapolis, MN"
-<<<<<<< HEAD
-1,Planned Parenthood - South Grand Health Center,38.637107,-90.251186,4251 Forest Park Avenue
-1,Blue Mountain Clinic,46.877332,-114.013114,610 N California St
-1,A Woman's Choice of Raleigh,35.814444,-78.694161,"3305 Drake Cir, Raleigh, NC�"
-=======
+1,Planned Parenthood - South Grand Health Center,38.637107,-90.251186,"4251 Forest Park Avenue"
+1,Blue Mountain Clinic,46.877332,-114.013114,"610 N California St"
 1,A Woman's Choice of Raleigh,35.814444,-78.694161,"3305 Drake Cir, Raleigh, NC"
->>>>>>> 7bdfc295a44d12568749da6529f59a1270ecb7ad
 1,A Woman's Choice of Charlotte,35.189592,-80.805824,"421 N Wendover Rd, Charlotte, NC"
-1,Red River Women's Clinic***,46.876738,-96.786867,"512 1st Ave N, Fargo, ND"
+1,Red River Women's Clinic,46.876738,-96.786867,"512 1st Ave N, Fargo, ND"
 1,Cherry Hill Women's Center,39.926901,-74.996818,"502 Kings Hwy N, Cherry Hill, NJ"
 1,Planned Parenthood- Sante Fe,35.658801,-105.961268,"730 St. Michael's Drive #4b, Santa Fe, NM"
 1,Buffalo Women's Services,42.936681,-78.842278,"2500 Main St, Buffalo, NY"
