@@ -69,9 +69,9 @@ var path = d3.geo.path()               // path generator that will convert GeoJS
 		
 // Define linear scale for output
 var color = d3.scale.linear()
-			  .range(["rgb(139,135,232)","rgb(103,99,210)","rgb(178,175,245)", "rgb(47, 53, 66)"]);
+			  .range(["rgb(255, 195, 18)","rgb(196, 229, 56)","rgb(18, 203, 196)", "rgb(47, 53, 66)", "rgb(181, 52, 113)", "rgb(87, 88, 187)", "rgb(238, 90, 36)", "rgb(0, 148, 50)", "rgb(6, 82, 221)", "rgb(153, 128, 250)", "rgb(131, 52, 113)" ]);
 
-var legendText = ["Clinics", "Supportive", "Hostile", "Neutral"];
+// 0 = New England, 1 = Middle Atlantic, 2 = East North Central, 3 = Dots, 4 = West North Central, 5 = South Atlantic, 6 = East South Central, 7 = West South Central, 8 = Mountain, 9 = Pacific, 10 = Southwest
 
 //Create SVG element and append map to the SVG
 var svg = d3.select("body")
@@ -87,7 +87,7 @@ var div = d3.select("body")
 
 // Load in my states data!
 d3.csv("state-hostility.csv", function(data) {
-color.domain([0,1,2,3]); // setting the range of the input data
+color.domain([0,1,2,3, 4, 5, 6, 7, 8, 9, 10]); // setting the range of the input data
 
 // Load GeoJSON data and merge with states data
 d3.json("us-states.json", function(json) {
@@ -177,28 +177,7 @@ svg.selectAll("circle")
     });
 });  
         
-// Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-var legend = d3.select("body").append("svg")
-      			.attr("class", "legend")
-     			.attr("width", 140)
-    			.attr("height", 200)
-   				.selectAll("g")
-   				.data(color.domain().slice().reverse())
-   				.enter()
-   				.append("g")
-     			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-  	legend.append("rect")
-   		  .attr("width", 18)
-   		  .attr("height", 18)
-   		  .style("fill", color);
-
-  	legend.append("text")
-  		  .data(legendText)
-      	  .attr("x", 24)
-      	  .attr("y", 9)
-      	  .attr("dy", ".35em")
-      	  .text(function(d) { return d; });
 	});
 
 });
